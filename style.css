@@ -1,0 +1,158 @@
+/*------------------ CUSTOM FONT IMPORTS ------------------- */
+
+@font-face {
+  font-family: monumentExtended;
+  src: url(./fonts/MonumentExtended-Regular.otf);
+}
+
+@font-face {
+  font-family: neueMontreal-Regular;
+  src: url(./fonts/NeueMontreal-regular.otf);
+}
+
+@font-face {
+  font-family: monumentExtended-Ultralight;
+  src: url(./fonts/MonumentExtended-Ultralight.otf);
+}
+
+.card-block {
+    min-height: 50px;
+    width: 100px;
+    padding: 0;
+    margin:0;
+}
+
+.bg-green {
+  background-color:#69E20A;
+}
+
+body{
+  font-family: neueMontreal-Regular;
+  width: 100vw;
+  max-height: 100vh;
+  font-size: 0.8em;
+  letter-spacing: 2%;
+  overflow-x: hidden;
+}
+
+marquee {
+  font-family: monumentExtended;
+  color: #69E20A;
+}
+
+.section-title {
+  font-family: monumentExtended;
+  text-transform: uppercase;
+  font-size: 1.5em;
+}
+
+.horizontal-card {
+  max-width: 100%;
+  display: block;
+  padding:0;
+  margin:0;
+  overflow-x: scroll;
+  font-family: monumentExtended-Ultralight;
+  text-transform: uppercase;
+  font-size: 0.65em;
+  letter-spacing: 2%;
+  padding: 2%;
+}
+
+.card-block {
+  min-height: auto!important;
+  width: auto!important;
+  padding: 5.5%;
+}
+
+.col-7 {
+  flex: 0 0 29.666667%!important;
+  max-width: 190px!important;
+}
+
+.card-styles {
+  border: 1px solid black!important;
+  border-radius: 3em!important;
+}
+/*------------------ HEADER ------------------- */
+
+#top-nav {
+  /* width: 100vw;
+  height: 50px;
+  display: inline-flex;
+  justify-content: space-around;
+  padding:0; */
+}
+
+#top-nav a {
+  text-decoration: none;
+  color: black;
+  font-family: monumentExtended;
+  width: 200px;
+  justify-content: center;
+  display: inline-flex;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+}
+
+#logo {
+  font-family: monumentExtended;
+  font-size: 5em;
+  padding: 2%;
+  display: block;
+}
+
+#sub-header {
+  font-family: neueMontreal-Regular;
+  font-size: 0.6em;
+  letter-spacing: 30%;
+  position: fixed;
+  padding-left: 10px;
+  text-transform: uppercase;
+  display: fixed;
+}
+
+/*------------------ MAIN ------------------- */
+
+#main {
+  width: 100%;
+  display: block;
+  padding: 5%;
+}
+
+.main-content {
+  width: 400px;
+  font-size: 0.8em;
+  letter-spacing: 2%;
+}
+
+
+#classes {
+  display: block;
+  padding: 10%;
+  width: 100%;
+  font-size: 0.8em;
+  letter-spacing: 2%
+}
+
+#resources {
+  display: block;
+  padding: 2%;
+  font-size: 0.8em;
+  letter-spacing: 2%;
+  padding: 10%;
+}
+
+/*------------------ HEADER ------------------- */
+
+#bottom-bar {
+  width: 100%;
+  background: #69E20A;
+  height: 50px;
+  position: sticky;
+  z-index: 1;
+  bottom:0;
+  left:0;
+  margin:0;
+  padding:0;
+}
