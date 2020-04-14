@@ -1,0 +1,25 @@
+:root{
+  a {
+    text-decoration: none;
+    color: black;
+    font-family: monumentExtended;
+    width: 200px;
+    justify-content: center;
+    display: inline-flex;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    background-color: black;
+  }
+}
+body{
+  a{
+    text-decoration: none;
+    color: black;
+    font-family: monumentExtended;
+    width: 200px;
+    justify-content: center;
+    display: inline-flex;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+  }
+}

@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="mysheet.css"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Vancity Dance Lab</title>
   </head>
@@ -17,43 +18,98 @@
         <div id="logo">VDL</div>
     </div>
 
+        <!-- ******* NAVIGATION ********** -->
 
       <section id="top-nav">
-        <div class="container-fluid">
-            <div class="horizontal-card">
+        <!-- <div class="container-fluid"> -->
+          <nav class="tags-nav">
+          <a href="#" class="tag-link">tag</a>
+          </nav>
+            <!-- <div class="horizontal-card">
             <div class="row flex-row flex-nowrap">
+              <div class="col-7 col-sm-2 col-md-4 col-lg-3">
+                  <a href="#"><div class="card-styles card-block">ALL</div></a>
+              </div>
                 <div class="col-7 col-sm-2 col-md-4 col-lg-3">
-                    <div class="card-styles card-block">Hip Hop</div>
+                    <a href=""><div class="card-styles card-block">Hip Hop</div></a>
                 </div>
                 <div class="col-7 col-sm-2 col-md-4 col-lg-3">
-                    <div class="card-styles card-block">Popping</div>
+                    <a href=""><div class="card-styles card-block">Popping</div></a>
                 </div>
                 <div class="col-7 col-sm-2 col-md-4 col-lg-3">
-                    <div class="card-styles card-block">Waacking</div>
+                    <a href="" ><div class="card-styles card-block">Waacking</div></a>
                 </div>
                 <div class="col-7 col-sm-2 col-md-4 col-lg-3">
-                    <div class="card-styles card-block">House</div>
+                    <a href=""><div class="card-styles card-block">House</div></a>
                 </div>
                 <div class="col-7 col-sm-2 col-md-4 col-lg-3">
-                    <div class="card-styles card-block">Locking</div>
+                    <a href=""><div class="card-styles card-block">Locking</div></a>
                 </div>
                <div class="col-7 col-sm-2 col-md-4 col-lg-3">
-                    <div class="card-styles card-block"> Hustle</div>
+                    <a href=""><div class="card-styles card-block"> Hustle</div></a>
                 </div>
                 <div class="col-7 col-sm-2 col-md-4 col-lg-3">
-                    <div class="card-styles card-block"> Breaking </div>
+                    <a href="" ><div class="card-styles card-block"> Breaking </div></a>
                 </div>
             </div>
-          </div>
-        </div>
+          </div> -->
+        <!-- </div> -->
     </section>
 
     <hr>
     <marquee> VANCOUVER DANCE LAB // NEW CONTENT: DESCRIPTION : TIME : PLACE </marquee>
     <hr>
 
+
+    <!-- ******* SECTION MAIN ********** -->
+
     <section id="main">
-      <div class="section-title"> Upcoming Events </div>
+
+<!-- TODO: fix responsive post cards -->
+<section class="posts by-tags show-grid">
+  	<article class="post tag hiphop">
+  		<h1>Hip Hop x Content Title</h1>
+  		<p><img src="./imgs/a-o-fill-1.png"></img></p>
+  	</article>
+  	<article class="post tag popping">
+  		<h1>Popping x Content Title</h1>
+  		<p><img src="./imgs/poster.png"></img></p>
+  	</article>
+  	<article class="post tag waacking">
+  		<h1>Waacking x Content Title </h1>
+  		<p><img src="./imgs/a-o-fill-2.png"></img></p>
+  	</article>
+  	<article class="post tag breaking">
+  		<h1>Breaking.</h1>
+  		<p><img src="./imgs/poster-2.png"></img></p>
+  	</article>
+  	<article class="post tag house">
+  		<h1>House House House.</h1>
+  		<p><img src="./imgs/a-o-fill-3.png"></img></p>
+  	</article>
+  	<article class="post tag hustle">
+  		<h1>With gusto.</h1>
+  		<p><img src="./imgs/a-o-fill-4.png"></img></p>
+  	</article>
+  	<article class="post tag waacking battle">
+  		<h1>Is the Space Pope reptilian!?</h1>
+  		<p>Now that the, uh, garbage ball is in space, Doctor, perhaps you can help me with my sexual inhibitions? I'm just glad my fat, ugly mama isn't alive to see this day. Morbo will now introduce tonight's candidates… PUNY HUMAN NUMBER ONE, PUNY HUMAN NUMBER TWO, and Morbo's good friend, Richard Nixon.</p>
+  	</article>
+  	<article class="post tag locking battle">
+  		<h1>The spirit is willing, but the flesh is spongy and bruised.</h1>
+  		<p>Locking battle. Daylight and everything. With a warning label this big, you know they gotta be fun! For example, if you killed your grandfather, you'd cease to exist! Alright, let's mafia things up a bit. Joey, burn down the ship. Clamps, burn down the crew.</p>
+  	</article>
+  	<article class="post tag workshop hiphop">
+  		<h1>Interesting. No, wait, the other thing: tedious.</h1>
+  		<p>Workshop hiphop with dimaonds. Humans dating robots is sick. You people wonder why I'm still single? It's 'cause all the fine robot sisters are dating humans! Bender, quit destroying the universe! Bender, you risked your life to save me!</p>
+  	</article>
+  	<article class="post tag popping battle">
+  		<h1>Good news, popping!</h1>
+  		<p>Popping content. Battle. It has nothing to do with mating. Fry, that doesn't make sense. Dr. Zoidberg, that doesn't make sense. But, okay! Then throw her in the laundry room, which will hereafter be referred to as "the brig".</p>
+  	</article>
+  </section>
+
+      <!-- <div class="section-title"> Upcoming Events </div>
       <div class="card mb-3" style="max-width: 540px;">
       <div class="row no-gutters">
         <div class="col-md-4">
@@ -81,12 +137,12 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
     </section>
 
     <hr>
     <hr>
-
+    
     <section id="classes">
     <div class="section-title"> Classes </div>
     <ul class="list-unstyled">
@@ -94,21 +150,21 @@
         <img src="https://via.placeholder.com/150" class="mr-3" alt="...">
         <div class="media-body">
           <h5 class="mt-0 mb-1">List-based media object</h5>
-          Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+          Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.<br> <a href="" class="inside-link"> More </a>
         </div>
       </li>
       <li class="media my-4">
         <img src="https://via.placeholder.com/150" class="mr-3" alt="...">
         <div class="media-body">
           <h5 class="mt-0 mb-1">List-based media object</h5>
-          Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+          Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.<br>  <a href="" class="inside-link"> More </a>
         </div>
       </li>
       <li class="media">
         <img src="https://via.placeholder.com/150" class="mr-3" alt="...">
         <div class="media-body">
           <h5 class="mt-0 mb-1">List-based media object</h5>
-          Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+          Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.<br>  <a href="" class="inside-link"> More </a>
         </div>
       </li>
     </section>
@@ -133,7 +189,7 @@
       </div>
     </section>
 
-
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script><script  src="./main.js"></script>
 
   </body>
 </html>

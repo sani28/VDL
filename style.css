@@ -15,6 +15,49 @@
   src: url(./fonts/MonumentExtended-Ultralight.otf);
 }
 
+a {
+  letter-spacing: 0.5px;
+  color: black!important;
+}
+
+h1 {
+  font-size: 1.2em!important;
+  font-family: neueMontreal-Regular;
+}
+
+img {
+    max-width: 80%;
+}
+
+.link-unstyled {
+  &,
+  &:visited,
+  &:hover,
+  &:active,
+  &:focus,
+  &:active:hover {
+    font-style: inherit;
+    color: inherit;
+    background-color: transparent;
+    font-size: inherit;
+    text-decoration: none;
+    font-variant: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    font-family: inherit;
+    border-radius: inherit;
+    border: inherit;
+    outline: inherit;
+    box-shadow: inherit;
+    padding: inherit;
+    vertical-align: inherit;
+  }
+}
+
+.inside-link  {
+  font-weight: bold;
+  font-size: 1.05em;
+}
 .card-block {
     min-height: 50px;
     width: 100px;
@@ -84,7 +127,7 @@ marquee {
   padding:0; */
 }
 
-#top-nav a {
+/* #top-nav a {
   text-decoration: none;
   color: black;
   font-family: monumentExtended;
@@ -93,7 +136,7 @@ marquee {
   display: inline-flex;
   padding-top: 2.5%;
   padding-bottom: 2.5%;
-}
+} */
 
 #logo {
   font-family: monumentExtended;
@@ -155,4 +198,75 @@ marquee {
   left:0;
   margin:0;
   padding:0;
+}
+
+
+/* ------------ TAGGED POSTS ----------------- */
+
+.page-sub-title {
+	margin: 0 0 1em 0;
+}
+
+.tags-nav {
+  font-family: monumentExtended-Ultralight;
+  padding: 4%;
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  flex-direction:row-reverse;
+  /* justify-content: flex-start; */
+	margin: 5em 2em;
+	font-size: 0.6em;
+  letter-spacing: 0.9em;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.tag-link:link,
+.tag-link:visited {
+	display: inline-block;
+	color: #000;
+  text-transform: uppercase;
+	background-color: #fff;
+	text-decoration: none;
+	padding: 0.6em 1em;
+  border: 1px solid black;
+	border-radius: 1.5em;
+	margin: 0.125em;
+  width: 20em;
+  height: 30px;
+}
+
+.posts {
+	width: 90%;
+	padding: 0;
+	margin: 0 auto 1em auto;
+}
+.posts-title {
+	font-size: 0.5em;
+}
+
+.post {
+	box-sizing: border-box;
+	position: relative;
+	display: inline-block;
+	width: 25%;
+	min-width: 15em;
+	margin: .25em 0;
+	padding: .5em 1em 1em 1em;
+	border: .0625em solid #ebfcff;
+	vertical-align: top;
+	line-height: normal;
+}
+
+.post-tags {
+	display: none;
+	box-sizing: inherit;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: #000;
+	background-color: #69E20A;
+	padding: 1em;
 }
